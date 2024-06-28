@@ -2,6 +2,10 @@
 import java.util.*;
 import java.io.*;
 
+// 출력
+System.out.print();
+System.out.println();
+
 // 변수 선언
 String[] arr = new String[5];
 int[] arr1 = {1,2,3};
