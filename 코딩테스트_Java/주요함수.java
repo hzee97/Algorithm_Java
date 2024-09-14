@@ -32,6 +32,10 @@ String str = "Hello World!";
 str.split(" ");
 str.substring(0,5);
 
+// replaceAll 
+// replaceAll("찾을 문자열", "바꿀 문자열")
+new_string = string.replaceAll("[a-zA-Z]","");
+
 // HashMap
 HashMap<String, Integer> hash = new HashMap<>();
 
