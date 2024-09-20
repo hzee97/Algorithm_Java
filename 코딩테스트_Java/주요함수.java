@@ -24,8 +24,8 @@ int arr[] = {1,2,3,4,5};
 Arrays.sort(arr); // 오름차순
 Arrays.sort(arr, Collections.reverseOrder()); // 내림차순
 
-Arrays.sort(arr,0,3); // 부분정렬
-Arrays.binarySearch(arr,2); // 이진탐색 : binarySearch(탐색배열, 찾는 값)
+Arrays.sort(arr,0,3); // 부분정렬 (특정 범위만 정렬하면 그 범위 외의 부분은 원래 배열 그대로 유지)
+Arrays.binarySearch(arr,2); // 이진탐색 : binarySearch(탐색배열, 찾는 값) , 이진 탐색은 배열이 정렬된 상태에서만 정확하게 동작
 
 // 길이
 int[] arr = new int[3];
