@@ -70,6 +70,10 @@ hast.get("java");   // 키로 값 가져오기.
 
 hash.containsKey("java");  // "java" 가 hash 안에 있는지 판별.
 
+hash.keySet() // 해시맵에 있는 모든 키를 Set 형태로 반환.
+
+hash.getOrDefault(key, defaultValue)  // 키에 대한 값을 반환. 만약 해당 키가 존재하지 않는 경우, 대신 지정한 기본값(defaultValue)을 반환
+
 // ArrayList
 ArrayList<String> list = new ArrayList<>();  // 선언.
 
