@@ -43,6 +43,9 @@ str.substring(0,5);
 // 문자열 비교
 str.equals("true");
 
+// 배열 복제
+int[] array1 = array.clone();
+
 // replaceAll 
 // replaceAll("찾을 문자열", "바꿀 문자열")
 new_string = string.replaceAll("[a-zA-Z]","");
