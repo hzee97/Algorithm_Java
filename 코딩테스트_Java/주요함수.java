@@ -40,6 +40,9 @@ String str = "Hello World!";
 str.split(" ");
 str.substring(0,5);
 
+// 문자열 비교
+str.equals("true");
+
 // replaceAll 
 // replaceAll("찾을 문자열", "바꿀 문자열")
 new_string = string.replaceAll("[a-zA-Z]","");
