@@ -31,6 +31,9 @@ Arrays.binarySearch(arr,2); // 이진탐색 : binarySearch(탐색배열, 찾는 
 int[] arr = new int[3];
 arr.length;
 
+String my_string = "ABC";
+my_String.length();        // 문자열의 길이를 구할 때는 메서드로 호출
+
 // String
 String str = "Hello World!";
 
