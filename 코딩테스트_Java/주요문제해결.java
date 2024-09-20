@@ -30,5 +30,15 @@ Integer.valueOf(String s) // Integer 객체 반환
 // 기본 자료형 'int' 로 변경
 Integer.parseInt(str);  // int 반환
 
+// 진법 변환
+// n진법 -> 10진법
+String str = "1011";
+Integer.parseInt(str, n);
+// 10진법 -> N진법
+int number = 10;
+Integer.toBinaryString(number); // 2진법
+Integer.toOctalString(number); // 8진법
+Integer.toHexString(number); // 16진법
+
 // 정규식
 my_string = my_string.replaceAll("[a-zA-Z]","");  // my_String에서 숫자만 추출.
