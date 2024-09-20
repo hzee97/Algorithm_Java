@@ -44,6 +44,13 @@ str.substring(0,5);
 // replaceAll("찾을 문자열", "바꿀 문자열")
 new_string = string.replaceAll("[a-zA-Z]","");
 
+// startsWith
+// string : 검사를 수행할 문자열, prefix : 이 문자열로 시작하는지 확인하려는 접두사 문자열.
+// 반환값은 true , false
+boolean result = string.startsWith(String prefix);
+
+boolean result = string.startsWith(String prefix, int toffset)  // 문자열의 특정 위치에서부터 해당 접두사로 시작하는지 여부를 확인
+
 // HashMap
 HashMap<String, Integer> hash = new HashMap<>();
 
