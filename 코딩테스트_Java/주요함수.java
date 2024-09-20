@@ -6,6 +6,11 @@ import java.io.*;
 System.out.print();
 System.out.println();
 
+// 배열 출력
+String[] arrCar = { "사과", "오렌지", "파인애플", "체리", "포도"};
+
+System.out.print( Arrays.toString(arrCar));
+
 // 변수 선언
 String[] arr = new String[5];
 int[] arr1 = {1,2,3};
