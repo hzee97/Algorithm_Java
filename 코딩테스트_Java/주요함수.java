@@ -51,6 +51,11 @@ boolean result = string.startsWith(String prefix);
 
 boolean result = string.startsWith(String prefix, int toffset)  // 문자열의 특정 위치에서부터 해당 접두사로 시작하는지 여부를 확인
 
+// endsWith
+// string : 검사를 수행할 문자열, suffix : 이 문자열로 끝나는지 확인하려는 접미사 문자열.
+// 반환값은 true , false
+boolean result = string.endsWith(String suffix);
+
 // HashMap
 HashMap<String, Integer> hash = new HashMap<>();
 
