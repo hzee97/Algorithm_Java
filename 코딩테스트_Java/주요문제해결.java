@@ -24,5 +24,8 @@ Math.sqrt(3);     // 제곱근.
 double a = 1.2345;
 String b = String.format("%.1f", a);
 
+// 객체 변경
+Integer.valueOf(String s)
+
 // 정규식
 my_string = my_string.replaceAll("[a-zA-Z]","");  // my_String에서 숫자만 추출.
