@@ -2,6 +2,14 @@
 import java.util.*;
 import java.io.*;
 
+// 입력
+Scanner sc = new Scanner(System.in);   // import java.util.Scanner;
+int n = sc.nextInt();
+String word = scanner.next();   // 공백 전까지 입력 받음
+String sentence = scanner.nextLine();  // 전체 한 줄 입력 받음
+char ch = scanner.next().charAt(0);  // 첫 번째 문자만 가져옴
+scanner.close();
+
 // 출력
 System.out.print();
 System.out.println();
