@@ -42,3 +42,18 @@ Integer.toHexString(number); // 16진법
 
 // 정규식
 my_string = my_string.replaceAll("[a-zA-Z]","");  // my_String에서 숫자만 추출.
+
+// 복잡한 정렬
+// ex. 첫 번째 원소 기준 오름차순, 두 번째 원소 기준 내림차순
+// python code : arr.sort(key=lambda x: (x[0], -x[1]))
+
+// 정렬: 첫 번째 원소 기준 오름차순, 두 번째 원소 기준 내림차순
+Arrays.sort(arr, new Comparator<Integer[]>() {
+    @Override
+    public int compare(Integer[] a, Integer[] b) {
+        if (a[0].equals(b[0])) {
+            return b[1].compareTo(a[1]);  // 두 번째 원소 내림차순
+        }
+        return a[0].compareTo(b[0]);  // 첫 번째 원소 오름차순
+    }
+});
